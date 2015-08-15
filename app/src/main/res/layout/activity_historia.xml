@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="christian.cursoandroid.historia"
+    android:background="#4993ff">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:visibility="visible"
+        android:background="#2772ff">
+
+    </ScrollView>
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="480dp"
+        android:id="@+id/imageView3"
+        android:layout_gravity="center_vertical"
+        android:adjustViewBounds="false"
+        android:src="@mipmap/android"
+        android:layout_weight="164.68"
+        android:visibility="visible"
+        android:elevation="48dp"/>
+
+
+</LinearLayout>

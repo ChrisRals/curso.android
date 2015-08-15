@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="christian.cursoandroid.opciones"
+    android:background="@mipmap/fondo">
+
+
+    <ImageView
+        android:layout_width="290dp"
+        android:layout_height="310dp"
+        android:id="@+id/imageView2"
+        android:src="@mipmap/ima"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:id="@+id/imageButton2"
+        android:background="@mipmap/botonu"
+        android:layout_above="@+id/imageButton3"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:id="@+id/imageButton3"
+        android:background="@mipmap/botoni"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/imageButton2" />
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:id="@+id/imageButton4"
+        android:background="@mipmap/botone"
+        android:layout_below="@+id/imageButton3"
+        android:layout_alignStart="@+id/imageButton3" />
+
+</RelativeLayout>
